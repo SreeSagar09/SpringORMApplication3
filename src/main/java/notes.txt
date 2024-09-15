@@ -1,0 +1,23 @@
+A Program to demonstrate how to get record from db by using findByExample method:
+Programs:
+* Product.java
+* ProductDAO.java
+* ProductDAOImpl.java
+* ProductDetails.java
+* AppConfig.java
+* Test.java
+Note:
+* In this application HibernateTemplate configuration is configured in java file.
+Output:
+--------- All Product List --------
+Product [productId=1, productCode=P001, productName=Book, quantity=12, price=15.0]
+Product [productId=2, productCode=P002, productName=Pen, quantity=20, price=10.0]
+Product [productId=3, productCode=P003, productName=Bag, quantity=24, price=120.5]
+Product [productId=4, productCode=P004, productName=Pen, quantity=15, price=12.75]
+-------- Product List by FirstResult, MaxResult -------
+Product [productId=3, productCode=P003, productName=Bag, quantity=24, price=120.5]
+------- Product List by ProductName --------
+Product [productId=1, productCode=P001, productName=Book, quantity=12, price=15.0]
+------- Product List by ProductName, FirstResult and MaxResult------
+Product [productId=2, productCode=P002, productName=Pen, quantity=20, price=10.0]
+Product [productId=4, productCode=P004, productName=Pen, quantity=15, price=12.75]
