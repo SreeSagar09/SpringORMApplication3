@@ -7,7 +7,11 @@ Programs:
 * AppConfig.java
 * Test.java
 Note:
-* In this application HibernateTemplate configuration is configured in java file.
+* The findByExample is used execute simple select query and findByExample method return List of entity objects.
+* findByExample(T exampleEntity) method accept one argument, it is entity class object.
+* findByExample(T exampleEntity, int firstResult, int maxResults) method accept three arguments, first one is entity class object, second one is firstResult as integer and third one is maxResult as integer. 
+* findByExample(String entityName, T exampleEntity) method accept two arguments, first one is fully qualified entity name and second one is entity class object.
+* findByExample(String entityName, T exampleEntity, int firstResult, int maxResults) method accept four arguments, first one is fully qualified entity name, second one is entity class object, third one is firstResult as integer and fourth one is maxResult as integer.
 Output:
 --------- All Product List --------
 Product [productId=1, productCode=P001, productName=Book, quantity=12, price=15.0]
