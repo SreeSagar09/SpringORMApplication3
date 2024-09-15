@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.app</groupId>
-	<artifactId>SpringORMApplication2</artifactId>
+	<artifactId>SpringORMApplication3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringORMApplication2</name>
+	<name>SpringORMApplication3</name>
 	<url>http://www.example.com</url>
 
 	<properties>
